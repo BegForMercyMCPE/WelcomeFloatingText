@@ -1,1 +1,13 @@
-
+#===========================================#
+#{ONLINE} Shows the number of players online
+#{MAXONLINE} Show the number of max player online
+#{PLAYERNAME} Shows player's name
+#===========================================#
+LINE1: "§eWelcome back, §a{PLAYERNAME} §e!"
+LINE2: "§eThere are §a{ONLINE}/{MAXONLINE} §eonline!"
+LINE3: "§eDonuts is life, Donuts if love"
+LINE4: "§eAll hail the rightful DONUT!"
+#Coordinates
+Xs: 100
+Ys: 5
+Zs: 100
