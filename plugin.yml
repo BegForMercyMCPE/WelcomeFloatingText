@@ -1,1 +1,6 @@
-
+name: WelcomeFloatingText
+main: BegForMercy\Main
+version: 1.0.0
+api: 2.0.0
+author: BegForMercy
+description: A simple welcome floating text
