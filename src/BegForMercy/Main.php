@@ -56,6 +56,8 @@ class Main extends PluginBase implements Listener{
 		$line12 = $cfg->get("LINE12"); 
 		$line13 = $cfg->get("LINE13"); 
 		$line14 = $cfg->get("LINE14"); 
+		$line15 = $cfg->get("LINE15");
+		$line16 = $cfg->get("LINE16"); 
                    $online = count(Server::getInstance()->getOnlinePlayers()); 
                 $maxonline = $this->getServer()->getMaxPlayers();
                $playername = $player->getName();                                                  
@@ -66,7 +68,7 @@ class Main extends PluginBase implements Listener{
               $allline = str_replace("{PLAYERNAME}", $playername, $allline);
               $level->addparticle(new FloatingTextParticle(new Vector3($x1, $y1, $z1), $allline));
 				
-	      $allline1 = $line8. $rs. $line9. $rs. $line10. $rs. $line11. $rs. $line12. $rs. $line13. $rs. $line14; 
+	      $allline1 = $line8. $rs. $line9. $rs. $line10. $rs. $line11. $rs. $line12. $rs. $line13. $rs. $line14. $rs. $line15. $rs. $line16; 
               $allline1 = str_replace("{ONLINE}", $online, $allline1);
               $allline1 = str_replace("{MAXONLINE}", $maxonline, $allline1);
               $allline1 = str_replace("{PLAYERNAME}", $playername, $allline1);
