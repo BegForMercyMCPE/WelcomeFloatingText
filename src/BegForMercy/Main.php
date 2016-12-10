@@ -38,6 +38,9 @@ class Main extends PluginBase implements Listener{
            $x1 = $cfg->get("Xs");
            $y1 = $cfg->get("Ys");
            $z1 = $cfg->get("Zs");
+	   $x2 = $cfg->get("Xs");
+           $y2 = $cfg->get("Ys");
+           $z2 = $cfg->get("Zs");
                 $line1 = $cfg->get("LINE1");  
                 $line2 = $cfg->get("LINE2"); 
                 $line3 = $cfg->get("LINE3"); 
@@ -45,6 +48,14 @@ class Main extends PluginBase implements Listener{
 		$line5 = $cfg->get("LINE5"); 
 		$line6 = $cfg->get("LINE6"); 
 		$line7 = $cfg->get("LINE7"); 
+				
+		$line8 = $cfg->get("LINE8");  
+                $line9 = $cfg->get("LINE9"); 
+                $line10 = $cfg->get("LINE10");
+                $line11 = $cfg->get("LINE4"); 
+		$line12 = $cfg->get("LINE5"); 
+		$line13 = $cfg->get("LINE6"); 
+		$line4 = $cfg->get("LINE7"); 
                    $online = count(Server::getInstance()->getOnlinePlayers()); 
                 $maxonline = $this->getServer()->getMaxPlayers();
                $playername = $player->getName();                                                  
