@@ -7,7 +7,22 @@ LINE1: "§eWelcome back, §a{PLAYERNAME} §e!"
 LINE2: "§eThere are §a{ONLINE}/{MAXONLINE} §eonline!"
 LINE3: "§eDonuts is life, Donuts if love"
 LINE4: "§eAll hail the rightful DONUT!"
+LINE5: "§eAll hail the rightful DONUT!"
+LINE6: "§eAll hail the rightful DONUT!"
+LINE7: "§eAll hail the rightful DONUT!"
+
+LINE8: "§eWelcome back, §a{PLAYERNAME} §e!"
+LINE9: "§eThere are §a{ONLINE}/{MAXONLINE} §eonline!"
+LINE10: "§eDonuts is life, Donuts if love"
+LINE11: "§eAll hail the rightful DONUT!"
+LINE12: "§eAll hail the rightful DONUT!"
+LINE13: "§eAll hail the rightful DONUT!"
+LINE14: "§eAll hail the rightful DONUT!"
 #Coordinates
 Xs: 100
 Ys: 5
 Zs: 100
+
+Xt: 100
+Yt: 5
+Zt: 100
