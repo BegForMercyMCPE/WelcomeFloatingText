@@ -1,6 +1,6 @@
-<?php
-	
-namespace BegForMercy;
+package BegForMercy
+
+using namespace BegForMercy;
 
 use pocketmine\Player;
 use pocketmine\event\player\PlayerJoinEvent;
